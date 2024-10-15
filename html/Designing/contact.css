@@ -1,0 +1,171 @@
+#header {
+    width: 100%;
+    text-align: center;
+    color: rgb(223, 179, 121);
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+.write {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: left;
+    margin: 110px 28px;
+}
+.interested {
+    color: rgb(223, 179, 121);
+    font-size: 20px;
+    margin: 5px 0;
+}
+.have {
+    color: rgb(214, 193, 166);
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.btn_write {
+    color: white;
+    background-color: rgb(116, 86, 50);
+    font-size: 20px;
+    border: none;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.btn_write:hover {
+    background: black;
+    border: 1px solid rgb(223, 179, 121);
+    color: rgb(223, 179, 121);
+}
+.right {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cute {
+    width: 300px;
+}
+#middle {
+    color: rgb(223, 179, 121);
+    font-size: 30px;
+    margin-left: 40px;
+}
+.hr, .hr1 {
+    width: 100%;
+}
+.kaliwa {
+    width: 50%;
+    position: relative;
+}
+.writer {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    margin:110px 28px;
+}
+.multiple {
+    color: rgb(223, 179, 121);
+    font-size: 20px;
+    margin: 5px 0;
+}
+.if {
+    color: rgb(214, 193, 166);
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.kanan {
+    width: 50%;
+    position: relative;
+}
+.fill-up {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    gap: 40px;
+    width: 90%;
+}
+.apply {
+    color: rgb(223, 179, 121);
+    font-size: 20px;
+}
+.name, .number, .email{
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+    background: transparent;
+}
+.massage {
+    border: 1px solid white;
+    padding: 50px 0;
+    font-size: 20px;
+    background: transparent;
+}
+.attach {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.resume {
+    text-decoration: none;
+    color: rgb(223, 179, 121);
+    font-size: 15px;
+}
+.att {
+    color: rgb(223, 179, 121);
+    font-size: 15px;
+}
+.fa-paperclip {
+    color: rgb(223, 179, 121);
+}
+.last {
+    width: 100%;
+    color: rgb(223, 179, 121);
+    background-color: rgb(116, 86, 50);
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.last:hover {
+    background: black;
+    border: 1px solid rgb(223, 179, 121);
+    color: rgb(223, 179, 121);
+}
+.last1 {
+    width: 100%;
+    color: rgb(214, 193, 166);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.privacy, .terms {
+    text-decoration: none;
+    white-space: normal;
+    color: rgb(223, 179, 121);
+}
+.massage::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

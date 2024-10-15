@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(165, 165, 2), rgb(12, 122, 12));
+}
+.container {
+    width: 900px;
+    height: 620px;
+    margin: 25px 0;
+    background: url(/Images/way.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+.hello{
+    margin: 0;
+    width: 100%;
+    color: white;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+}
+.world {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 70px;
+    padding-left: 60px;
+    line-height: 60px;
+}
+.lorem {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 15px;
+    position: relative;
+    bottom: -60px;
+    left: -190px;
+}
+.wrapper {
+    width: 50%;
+    height: 620px;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+.form {
+    width: 100%;
+    height: 620px;
+    box-sizing: border-box;
+    padding: 40px 75px;
+}
+.register {
+    font-size: 25px;
+    margin: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text {
+    margin: 4px 0;
+}
+.para {
+    font-size: 11px;
+    margin: 0;
+    padding: 0 2px;
+}
+span {
+    color: rgb(46, 102, 224);
+}
+.inputs {
+    width: 100%;
+}
+.input1 {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    transition: 1s;
+    padding-left: 55px;
+    box-sizing: border-box;
+}
+.label1 {
+    font-size: 15px;
+    position: relative;
+    top: -33px;
+}
+.input1:hover,
+.input2:hover,
+.input3:hover,
+.input4:hover {
+    outline: none;
+    border-bottom:2px solid green;
+}
+.input1:focus,
+.input2:focus,
+.input3:focus,
+.input4:focus {
+    outline:none;
+    border-bottom: 2px solid green;
+}
+.input2 {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    padding-left: 78px;
+    box-sizing: border-box;
+}
+.label2 {
+    font-size: 15px;
+    position: relative;
+    top: -33px;
+}
+.input3 {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    padding-left: 85px;
+    box-sizing: border-box;
+}
+.label3 {
+    font-size: 15px;
+    position: relative;
+    top: -33px;
+}
+.input4 {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: 5px 0;
+    margin-bottom: 10px;
+    padding-left: 90px;
+    box-sizing: border-box;
+}
+.label4 {
+    font-size: 15px;
+    position: relative;
+    top: -33px;
+    padding: 5px 0;
+}
+.accept {
+    display: inline-block;
+}
+.i {
+    display: inline-block;
+    font-size: 10px;
+    position: relative;
+    top: -3px;
+    color: gray;
+}
+.buttons {
+    width: 100%;
+    position: relative;
+    right: 0;
+}
+.btn_login {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+    width: 45%;
+    border: none;
+    border-radius: 20px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    margin: 10px 0;
+}
+.wow {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+.last {
+    width: 100%;
+    font-size: 10px;
+    color: gray;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -80px;
+}
+.social {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.btn_fb {
+    width: 32%;
+    padding: 7px 10px;
+    padding-left: 25px;
+    border: none;
+    background: linear-gradient(to right, rgb(40, 68, 224), rgb(10, 46, 163));
+    position: absolute;
+    left: 0;
+    bottom: -120px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}
+.fa-facebook {
+    position: absolute;
+    bottom: -113px;
+    left: 4px;
+    color: white;
+}
+.btn_t {
+    width: 32%;
+    padding: 7px 17px;
+    padding-left: 30px;
+    border: none;
+    background: linear-gradient(to right, rgb(120, 139, 245), rgb(65, 108, 248));
+    position: absolute;
+    left: 100px;
+    bottom: -120px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}
+.fa-twitter {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: -113px;
+    left: 105px;
+}
+
+.btn_ig {
+    width: 32%;
+    padding: 7px 17px;
+    padding-left: 26px;
+    border: none;
+    background: linear-gradient(to right, rgb(120, 139, 245), rgb(65, 108, 248));
+    position: absolute;
+    left: 200px;
+    bottom: -120px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}
+.fa-instagram {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: -113px;
+    left: 205px;
+}

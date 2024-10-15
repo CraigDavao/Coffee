@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(41, 40, 40, 0.8);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    z-index: 1;
+}
+.wala {
+    margin: 0;
+    width: 200px;
+    height: 70px;
+    display: flex;
+}
+.logo {
+    margin: auto 10px;
+    width: 65px;
+    height: 65px;
+}
+.title {
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+}
+.links {
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.link:hover {
+    color: rgb(223, 179, 121);
+}
+.s {
+    margin: 0 25px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.search {
+    width: 150px;
+    display: flex;
+    font-size: 20px;
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    background: transparent;
+    border-radius: 8px;
+    color: white;
+}
+.fa-magnifying-glass {
+    color: white;
+    font-size: 20px;
+}
+.fa-cart-shopping {
+    color: white;
+    font-size: 20px;
+}
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(116, 86, 50);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.btn:hover {
+    color: rgb(155, 121, 80);
+    border: 1px solid rgb(155, 121, 80);
+    background-color: black;
+}
+@media (min-width: 680px) and (max-width: 702px) {
+    nav {
+        width: 100%;
+    }
+}

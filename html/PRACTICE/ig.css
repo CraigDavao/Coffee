@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+.container {
+    width: 348px;
+    margin: 15px auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0);
+}
+.ig {
+    margin: 0px;
+    width: 225px;
+    display: block;
+    position: relative;
+    left: 14%;
+}
+.user {
+    display: block;
+    width: calc(100% - 80px );
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    font-size: 15px;
+    margin: 10px 25px;
+}
+.pass {
+    display: block;
+    width: calc(100% - 80px );
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    font-size: 15px;
+    margin: 10px 25px;
+}
+.btn {
+    display: block;
+    width: calc(100% - 60px );
+    padding: 10px;
+    border: none;
+    border-radius: 11px;
+    font-size: 15px;
+    margin: 0px auto;
+    background-color: #53bdeb;
+    color: white;
+    font-weight: bold;
+}
+.una {
+    margin: 0px 47%;
+    font-size: 15px;
+    color: gray;
+}
+.fbicon {
+    width: 20px;
+    margin: 0px;
+    position: relative;
+    left: 24%;
+    display: inline-block;
+    cursor: pointer;
+}
+.facebook {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    color: #0c4b9e;
+    margin: 0px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    top: -4px;
+    left: 91px;
+}
+.forgot {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #0c4b9e;
+    font-size: medium;
+    text-align: center;
+    font-size: 14px;
+}
+.container2 {
+    width: 348px;
+    margin: 20px auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 13px 0px;
+}
+.last {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.hehe {
+    color: #46a5db;
+    font-weight: bold;
+}
+.habol {
+    text-align: center;
+}
+.last-image {
+   display: inline-block;
+}
+.n {
+    width: 150px;
+    position: absolute;
+    left: 525px;
+}
+.o {
+    width: 125px;
+    position: absolute;
+    left: 685px;
+}   

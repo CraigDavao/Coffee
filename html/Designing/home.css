@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-image: url(/Image/a.png);
+    background-repeat: no-repeat;
+    background-position: right 80px;
+    background-size: 300px;
+}
+.wrapper {
+    width: 50%;
+    height: 300px;
+    position: relative;
+    left: 140px;
+    top: 160px;
+}
+.introduction {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 100px;
+    color: rgb(223, 179, 121);
+    background-color: rgba(66, 46, 20, 0.9);
+    border-radius: 50px;
+    padding: 5px;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+.text {
+    color: rgb(214, 193, 166);
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+}
+.image-container {
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.e {
+    width: 350px;
+}
+.b {
+    width: 100px;
+}

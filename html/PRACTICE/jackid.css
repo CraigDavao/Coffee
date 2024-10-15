@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+.container{
+    background-color: white;
+    width: 350px;
+    height: 444px;
+    margin: 25px auto;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.logo {
+    width: 70px;
+    margin: 5px;
+    display: inline-block;    
+}
+.school{
+    margin: 0;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 27px;
+    position: relative;
+    top: -46px;
+}
+.address {
+    margin: 0;
+    display: inline-block;
+    font-size: 11px;
+    position: relative;
+    top: -50px;
+    left: 87px;
+}
+.prof {
+    margin: 8px auto;
+    width: 100px;
+    display: block;
+    position: relative;
+    top: -24px;
+}
+.name {
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    top: -25px;
+}
+.no{
+    margin: 0;
+    font-size: small;
+    position: relative;
+    left: 50px;
+    top: -20px;
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    bottom: -3px;
+}
+.last {
+    width: calc(100% - 18px);
+    background-color: rgb(4, 4, 66);
+    color: white;
+    font: bold;
+    font-size: 11px ;
+    padding: 9px;
+    text-align: center;
+}
+.input {
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+}
+.sign {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: -25px;
+    right: 50px;
+    margin: 0;
+}
+.hmm {
+    margin: 0;
+    width: 90px;
+    display: inline-block;
+    position: relative;
+    left: 258px;
+    top: -30px;
+}
